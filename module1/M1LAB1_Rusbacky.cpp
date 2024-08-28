@@ -4,6 +4,7 @@
 // 8/26/2024
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() 
@@ -21,6 +22,9 @@ int main()
   cin >> pricePerApple;
 
   totalCost = (double)numApples * pricePerApple;
+
+  // set all dec to fixed
+  cout << fixed << setprecision(2);
 
   cout << "--------------------\n";
   cout << "Welcome to " << name << "'s apple orchard!\n";
