@@ -8,7 +8,6 @@ int main()
     double result;
 
     std::cout << "********** CALCULATOR **********"\n << endl;
-
     std::cout << "Enter either (+ - * or /): ";
     std::cin >> op;
 
@@ -37,7 +36,7 @@ int main()
             std::cout << "result: " << result << '\n';
             break;
         default:
-            std::cout << "invalid response!\n";
+            std::cout << "invalid operator. Try again!\n";
             break;
     }
 
