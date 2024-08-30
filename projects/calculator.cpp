@@ -1,5 +1,4 @@
 #include <iostream>
-
 int main()
 {
     char op;
@@ -7,7 +6,7 @@ int main()
     double num2;
     double result;
 
-    std::cout << "********** CALCULATOR **********"\n << endl;
+    std::cout << "********** CALCULATOR **********\n";
     std::cout << "Enter either (+ - * or /): ";
     std::cin >> op;
 
@@ -16,8 +15,8 @@ int main()
 
     std::cout << "Enter #2: ";
     std::cin >> num2;
-    
-    switch(op) 
+
+    switch(op)
     {
         case '+':
             result = num1 + num2;
@@ -40,7 +39,7 @@ int main()
             break;
     }
 
-    std::cout << "********** CALCULATOR **********"\n; << endl;
+    std::cout << "********** CALCULATOR **********\n";
 
     return 0;
 }
