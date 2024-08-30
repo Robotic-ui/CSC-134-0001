@@ -15,7 +15,6 @@ int main()
     {
         std::cout << "Enter the temperature in Celsius: ";
         std::cin >> temp;
-
         temp = (1.8 * temp) + 32.0;
         std::cout << "Temperature is: " << temp << " F\n";
     }
@@ -23,7 +22,6 @@ int main()
     {
         std::cout << "Enter the temperature in Fahrenheit: ";
         std::cin >> temp;
-
         temp = (temp - 32) / 1.8;
         std::cout << "Temperature is: " << temp << " C\n";
     }
