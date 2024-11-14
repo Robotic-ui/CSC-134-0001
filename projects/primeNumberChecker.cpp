@@ -1,6 +1,6 @@
 #include <iostream>
 
-bool isPrime(int n) 
+bool isPrime(int n) // n = number
 {
     if (n <= 1) return false;
     for (int i = 2; i * i <= n; i++) 
