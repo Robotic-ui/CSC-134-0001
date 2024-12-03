@@ -1,6 +1,6 @@
 #include <iostream>
 
-void exampleFunction(); // (declaration) NOTE: fuction cannot be declared after the main function ERROR!
+void exampleFunction(); // (declaration) NOTE: fuction cannot be declared after the main function EOOR!
 {
     // definition goes here
 }
